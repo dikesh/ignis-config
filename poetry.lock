@@ -44,7 +44,7 @@ PyGObject = ">=3.50.0"
 type = "git"
 url = "https://github.com/linkfrg/ignis.git"
 reference = "HEAD"
-resolved_reference = "9da02e7e72810648e0bf71d408280c12de68d087"
+resolved_reference = "2292ae1f93b0d4a76544fb9a59ea8eac48b9bf66"
 
 [[package]]
 name = "loguru"

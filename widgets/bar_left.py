@@ -10,7 +10,7 @@ from widgets.screenrec import screen_rec
 
 def applications():
     """Applications Widget"""
-    cmd = "niri msg action spawn -- ~/.config/rofi/launchers/type-3/launcher.sh"
+    cmd = "~/.config/rofi/launchers/type-3/launcher.sh"
     return Widget.Button(
         css_classes=["bar-section", "apps"],
         child=Widget.Label(label="󰀻"),
