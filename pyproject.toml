@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ignis-topbar"
+version = "0.1.0"
+description = ""
+authors = ["Dikesh Jariwala"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+ignis = {git = "https://github.com/linkfrg/ignis.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
