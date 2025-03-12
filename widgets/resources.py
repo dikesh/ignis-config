@@ -130,7 +130,7 @@ def disk_usage():
 
 def system_resources():
     """System Resources"""
-    return Widget.Box(
+    return Widget.EventBox(
         css_classes=["bar-section"],
         spacing=8,
         child=[
@@ -139,4 +139,5 @@ def system_resources():
             temperature(),
             disk_usage(),
         ],
+        on_click=lambda _: asyncio.create_task(Utils.exec_sh_async("kitty -e btop")),  # type: ignore
     )
